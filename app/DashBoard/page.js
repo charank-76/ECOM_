@@ -44,8 +44,10 @@ export default function Dashboard() {
           {products.map((product) => (
             <ProductL 
             key={product.id} 
-            name={product.name} />
+            name={product.name} 
+            path={product.path}/>
           ))}
+          
         </div>
       </section>
     </div>
