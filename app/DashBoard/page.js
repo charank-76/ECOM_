@@ -8,7 +8,7 @@ export default function Dashboard() {
     { id: 1, name: 'Groceries',path:"/Groceries" },
     { id: 2, name: 'Electronics',path:"/Electronics" },
     { id: 3, name: 'Clothing',path:"/Clothing" },
-    { id: 4, name: 'Home & Kitchen',path:"/HomeK" },
+    { id: 4, name: 'Home & Kitchen',path:"/Homek" },
     { id: 5, name: 'Books',path:"/Books" },
     { id: 6, name: 'Sports & Outdoors',path:"/Sports" },
     { id: 7, name: 'Beauty & Personal Care',path:"/Beauty" }
