@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from "react"
-import { collection, getDocs,where,query,setDoc,doc } from "firebase/firestore"
+import { collection, getDocs,where,query,setDoc,doc,getDoc,updateDoc } from "firebase/firestore"
 import { db } from "../core/firebase"
 import { useRouter } from "next/navigation"
 

@@ -27,9 +27,15 @@ export default function NavBar() {
 
           <button
             className="hover:text-pink-400 transition"
-            onClick={() => router.push('/Dashboard')}
+            onClick={() => router.push('/Cart')}
           >
             Cart
+          </button>
+           <button
+            className="hover:text-pink-400 transition"
+            onClick={() => router.push('/My')}
+          >
+            MyOrders
           </button>
 
           <button
